@@ -1,2 +1,0 @@
-# BWYFavShows
-Created with CodeSandbox
