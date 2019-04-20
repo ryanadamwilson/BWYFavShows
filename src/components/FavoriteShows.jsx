@@ -8,7 +8,7 @@ const FavoriteShows = ({ shows }) => {
         {shows
           .filter(show => show.category === "broadway")
           .map(show => (
-            <a href={show.url} className="Show col">
+            <a href={show.url} className="Show col" key={show.title}>
               <img className="Show__poster" src={show.poster} />
               <div className="Show__title">{show.title}</div>
             </a>
